@@ -1,0 +1,11 @@
+﻿Console.Write("Введите сторону а: ");
+double a = double.Parse(Console.ReadLine());
+Console.Write("ВВедите сторону b: ");
+double b = double.Parse(Console.ReadLine());
+Console.Write("Введите сторону с: ");
+double c = double.Parse(Console.ReadLine());
+double P = a + b + c;
+double p = (a + b + c) / 2.0;
+double S = Math.Sqrt(p * (p - a) * (p - b) * (p - c));
+Console.WriteLine($"Периметр: {P}");
+Console.WriteLine($"Площадь: {S: F2}");
