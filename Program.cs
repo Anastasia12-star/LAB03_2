@@ -8,3 +8,4 @@ double P = a + b + c;
 double p = (a + b + c) / 2.0;
 double S = Math.Sqrt(p * (p - a) * (p - b) * (p - c));
 Console.WriteLine($"Периметр: {P}");
+Console.WriteLine($"Площадь: {S}");
